@@ -3,6 +3,11 @@ import image1 from './assets/london.png'
 import logo from './assets/logo.png'
 import image2 from './assets/newyork.png'
 import image3 from './assets/washington.png'
+import image4 from  './assets/Library.png'
+import image5 from './assets/basketball.png'
+import image6 from './assets/cafeteria.png'
+import image7 from './assets/user1.jpg'
+import image8 from './assets/user2.jpg'
 import './App.css'
 
 const  App = () => {
@@ -81,17 +86,17 @@ const  App = () => {
 
     <div className="row">
       <div className="facilities-col">
-        <img src="c:\Users\HP\Desktop\my personal lecture\images\library.png"/>
+        <img src={image4} alt ='Library'/>
         <h3>World Class Library</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, dolorum nihil pariatur nesciunt qui culpa iure quaerat blanditiis quia? Dolor.</p>
       </div>
       <div className="facilities-col">
-        <img src="c:\Users\HP\Desktop\my personal lecture\images\basketball.png"/>
+        <img src={image5} alt = 'basketball'/>
         <h3>Largest Play Ground</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, dolorum nihil pariatur nesciunt qui culpa iure quaerat blanditiis quia? Dolor.</p>
       </div>
 <div className="facilities-col">
-        <img src="c:\Users\HP\Desktop\my personal lecture\images\cafeteria.png"/>
+        <img src={image6} alt ='cafeteria'/>
         <h3>Tasty and Healthy Food</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, dolorum nihil pariatur nesciunt qui culpa iure quaerat blanditiis quia? Dolor.</p>
       </div>
@@ -104,7 +109,7 @@ const  App = () => {
 
   <div className="row">
     <div className="testimonial-col">
-      <img src="c:\Users\HP\Desktop\my personal lecture\images\user1.jpg"/>
+      <img src={image7} alt ='user1'/>
       <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab doloremque culpa unde repudiandae voluptatum, minima corrupti. Magni consectetur fugiat sunt.</p>
         <h3>Christine Berkley</h3>
@@ -116,7 +121,7 @@ const  App = () => {
       </div>
     </div>
       <div className="testimonial-col">
-      <img src="c:\Users\HP\Desktop\my personal lecture\images\user2.jpg"/>
+      <img src={image8} alt='user2'/>
       <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab doloremque culpa unde repudiandae voluptatum, minima corrupti. Magni consectetur fugiat sunt.</p>
         <h3>Christine David</h3>
