@@ -52,7 +52,7 @@ const  App = () => {
  <section className="campus">
     <h1> Our Global Campus</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia repellendus neque ex nemo, aliquid quaerat nostrum obcaecati dignissimos aut ducimus atque porro minus eveniet excepturi nesciunt molestias voluptatem commodi perferendis. Modi sequi numquam facilis repellat voluptatibus porro ut explicabo accusamus.</p>
- <div classNmae="row">
+ <div className="row">
     <div className="campus-col">
         <img src={image1} alt='place1'/>
      <div className="layer">
@@ -105,7 +105,7 @@ const  App = () => {
     <div className="testimonial-col">
       <img src="c:\Users\HP\Desktop\my personal lecture\images\user1.jpg"/>
       <div>
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab doloremque culpa unde repudiandae voluptatum, minima corrupti. Magni consectetur fugiat sunt.</P>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab doloremque culpa unde repudiandae voluptatum, minima corrupti. Magni consectetur fugiat sunt.</p>
         <h3>Christine Berkley</h3>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
@@ -117,7 +117,7 @@ const  App = () => {
       <div className="testimonial-col">
       <img src="c:\Users\HP\Desktop\my personal lecture\images\user2.jpg"/>
       <div>
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab doloremque culpa unde repudiandae voluptatum, minima corrupti. Magni consectetur fugiat sunt.</P>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab doloremque culpa unde repudiandae voluptatum, minima corrupti. Magni consectetur fugiat sunt.</p>
         <h3>Christine David</h3>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
