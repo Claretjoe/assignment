@@ -3,7 +3,7 @@ import image1 from './assets/london.png'
 import logo from './assets/logo.png'
 import image2 from './assets/newyork.png'
 import image3 from './assets/washington.png'
-import image4 from  './assets/Library.png'
+import image4 from  './assets/library.png'
 import image5 from './assets/basketball.png'
 import image6 from './assets/cafeteria.png'
 import image7 from './assets/user1.jpg'
@@ -86,7 +86,7 @@ const  App = () => {
 
     <div className="row">
       <div className="facilities-col">
-        <img src={image4} alt ='Library'/>
+        <img src={image4} alt ='library'/>
         <h3>World Class Library</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, dolorum nihil pariatur nesciunt qui culpa iure quaerat blanditiis quia? Dolor.</p>
       </div>
