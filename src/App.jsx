@@ -1,7 +1,7 @@
 import react from 'react'
-// import image1 from './assets/london.png'
-// import image2 from './assets/react.svg'
-// import viteLogo from './assets/vite.svg'
+import image1 from './assets/london.png'
+import logo from './assets/logo.png'
+import viteLogo from './assets/vite.svg'
 import './App.css'
 
 const  App = () => {
@@ -11,7 +11,7 @@ const  App = () => {
    <div>
     <section className="header">
         <nav>
-        <a href="index.html"><img src="c:\Users\HP\Desktop\my personal lecture\images\logo.png"/></a>
+        <a href="index.html"><img src={logo} alt="logo1"/></a>
         <div className="nav-links">
            <ul>
             <li> <a href="">HOME</a></li>
@@ -54,7 +54,7 @@ const  App = () => {
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia repellendus neque ex nemo, aliquid quaerat nostrum obcaecati dignissimos aut ducimus atque porro minus eveniet excepturi nesciunt molestias voluptatem commodi perferendis. Modi sequi numquam facilis repellat voluptatibus porro ut explicabo accusamus.</p>
  <div className="row">
     <div className="campus-col">
-        {/* <img src={image1} alt='place1'/> */}
+        <img src={image1} alt='place1'/>
      <div className="layer">
        <h3>LONDON</h3>
      </div>
