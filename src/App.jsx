@@ -1,7 +1,8 @@
 import react from 'react'
 import image1 from './assets/london.png'
 import logo from './assets/logo.png'
-import viteLogo from './assets/vite.svg'
+import image2 from './assets/newyork.png'
+import image3 from './assets/washington.png'
 import './App.css'
 
 const  App = () => {
@@ -60,13 +61,13 @@ const  App = () => {
      </div>
     </div>
      <div className="campus-col">
-        <img src="c:\Users\HP\Desktop\my personal lecture\images\newyork.png"/>
+        <img src={image2} alt='place'/>
     <div className="layer">
     <h3>NEW YORK</h3>
       </div>
     </div>
      <div className="campus-col">
-         <img src="c:\Users\HP\Desktop\my personal lecture\images\washington.png"/>
+         <img src={image3} alt='place3'/>
         <div className="layer">
           <h3>WASHINGTON</h3>
         </div>
